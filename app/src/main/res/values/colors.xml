@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Values -->
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -7,4 +8,19 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="grey_dark">#575757</color>
+    <color name="purple_blue_soft">#8F99EB</color>
+    <color name="purple_blue">#5B67CA</color>
+    <color name="grey_blue">#C6CEDD</color>
+    <color name="dark_blue">#12175E</color>
+
+    <!-- Components -->
+    <color name="textTitle">@color/dark_blue</color>
+    <color name="textBody">@color/grey_dark</color>
+    
+    <color name="backgroundDefault">@color/white</color>
+    <color name="backgroundBlueSoft">@color/purple_blue_soft</color>
+    
+    <color name="floatingButtonPrimary">@color/purple_blue</color>
+
 </resources>

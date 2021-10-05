@@ -12,14 +12,20 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_task"
         android:name="com.jgbravo.tareapp.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
+        android:label="@string/title_task"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_graphic"
         android:name="com.jgbravo.tareapp.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
+        android:label="@string/title_graphic"
         tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_folder"
+        android:name="com.jgbravo.tareapp.ui.folder.FolderFragment"
+        android:label="@string/title_folder"
+        tools:layout="@layout/fragment_folder" />
 </navigation>
